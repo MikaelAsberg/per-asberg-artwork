@@ -12,73 +12,105 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Aleo:wght@300&family=Josefin+Sans&family=Lato&family=Poppins:wght@200&family=Roboto&family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/styles/styles.css">
-    <title>Per Asberg Art Work</title>
+    <title>Per Asberg Artwork</title>
 </head>
 
-<body class="main-background">
-    <header class="header-nav">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
-            <div class="container-fluid header-nav p-1">
-                <a class="navbar-brand" href="#">LOGO Per Asberg Art Work</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown link
-                    </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
+<body>
+    <header class="topnav">
+        <nav class="nav">
+            <a href="#" class="toplogo">LOGO Per Åsberg Artwork</a>
+            <div class="hamburger">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+            <div class="nav__link hide">
+                <a href="#">Hem</a>
+                <a href="#">Målningar</a>
+                <a href="#">Teckningar</a>
+                <a href="#">Butik</a>
+                <a href="#">Nyheter</a>
+                <a href="#">Per Åsberg</a>
+                <a href="#">Kontakt</a>
             </div>
         </nav>
     </header>
     <main class="d-flex flex-row">
-        <div class="sidebar">
-            <div class="d-flex flex-column vh-100 flex-shrink-0 p-3 text-black" style="width: 250px;">
-                <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-black text-decoration-none"> <svg class="bi me-2" width="40" height="32"> </svg> <span class="fs-4">LOGO</span> </a>
-                <p class="ms-4">Per Asberg Art Work</p>
-                <hr>
-                <ul class="nav nav-pills flex-column mb-auto">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link text-black" aria-current="page"> <i class="fa fa-home"></i><span class="ms-2">Home</span> </a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link text-black"> <i class="fa fa-dashboard"></i><span class="ms-2">Dashboard</span> </a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link text-black"> <i class="fa fa-first-order"></i><span class="ms-2">My Orders</span> </a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link text-black"> <i class="fa fa-cog"></i><span class="ms-2">Settings</span> </a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link text-black"> <i class="fa fa-bookmark"></i><span class="ms-2">Bookmarks</span> </a>
-                    </li>
+        <nav class="sidenav">
+            <div class="d-flex justify-content-center">
+                <div class="logotype mt-2 mb-4">
+                    <h1>LOGO Per Åsberg Artwork</h1>
+                </div>
+            </div>
+            <div class="me-4 mt-0">
+                <ul class="sidenav--items">
+                    <hr class=" mt-1 mb-1 ">
+                    <li type="button" onclick="location.href='#';"><span>Hem</span></li>
+                    <hr class="pt-0  mt-1 mb-1 ">
+                    <li type="button" onclick="location.href='#';"><span>Målningar</span></li>
+                    <hr class=" mt-1 mb-1 ">
+                    <li type="button" onclick="location.href='#';"><span>Teckningar</span></li>
+                    <hr class=" mt-1 mb-1 ">
+                    <li type="button" onclick="location.href='#';"><span>Butik</span></li>
+                    <hr class=" mt-1 mb-1 ">
+                    <li type="button" onclick="location.href='#';"><span>Nyheter</span></li>
+                    <hr class=" mt-1 mb-1 ">
+                    <li type="button" onclick="location.href='#';"><span>Per Åsberg</span></li>
+                    <hr class=" mt-1 mb-1 ">
+                    <li type="button" onclick="location.href='#';"><span>Kontakt</span></li>
+                    <hr class=" mt-1 mb-1 ">
                 </ul>
             </div>
-        </div>
-        <div>
-            <h1>main area</h1>
-        </div>
+        </nav>
+        <div class="content ps-4 d-flex justify-content-center align-items-center ">
+            <div class="d-flex flex-column">
+                <div class="slidershow middle">
+                    <div class="slides">
+                        <input type="radio" name="r" id="r1" checked>
+                        <input type="radio" name="r" id="r2">
+                        <input type="radio" name="r" id="r3">
+                        <input type="radio" name="r" id="r4">
+                        <input type="radio" name="r" id="r5">
+                        <div class="slide s1">
+                            <img src="/Images/lila.png" alt="lila">
+                        </div>
+                        <div class="slide">
+                            <img src="/Images/ljusblå.png" alt="ljusblå">
+                        </div>
+                        <div class="slide">
+                            <img src="/Images/ljusbrun.png" alt="ljusbrun">
+                        </div>
+                        <div class="slide">
+                            <img src="/Images/ljusgul.png" alt="ljusgul">
+                        </div>
+                        <div class="slide">
+                            <img src="/Images/mörkblå.png" alt="mörkblå">
+                        </div>
+                    </div>
+                    <div class="navigation">
+                        <label for="r1" class="bar"></label>
+                        <label for="r2" class="bar"></label>
+                        <label for="r3" class="bar"></label>
+                        <label for="r4" class="bar"></label>
+                        <label for="r5" class="bar"></label>
+                    </div>
+                </div>
+                <div class="Landing__flex--gallery">
+                    <h1 class="mt-3 ms-3">Utvalda alster</h1>
+                    <img class="m-3" src="/Images/lila.png" alt="lila">
+                    <img class="m-3" src="/Images/ljusblå.png" alt="ljusblå">
+                    <img class="m-3" src="/Images/ljusbrun.png" alt="ljusbrun">
+                    <img class="m-3" src="/Images/ljusgul.png" alt="ljusgul">
+                    <img class="m-3" src="/Images/mörkblå.png" alt="mörkblå">
+                    <img class="m-3" src="/Images/mörkgrön.png" alt="mörkblå">
+                    <img class="m-3" src="/Images/mörkgul.png" alt="mörkblå">
+                    <img class="m-3" src="/Images/orange.png" alt="mörkblå">
+                    <img class="m-3" src="/Images/röd.png" alt="mörkblå">
+                </div>
+            </div>
     </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="/script/script.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
 </body>
 
 </html>

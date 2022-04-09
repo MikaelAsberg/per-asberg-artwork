@@ -1,0 +1,36 @@
+.sidenav {
+    width: 400px;
+    min-height: 100vh;
+    background-color: rgb(202, 220, 228);
+}
+
+.logotype {
+    width: 100px;
+    height: 80px;
+    border: 3px solid black;
+}
+
+.logotype h1 {
+    font-size: 20px;
+}
+
+.sidenav--items li {
+    list-style-type: none;
+}
+
+.sidenav--items li span {
+    font-size: 32px;
+    font-weight: normal;
+}
+
+.sidenav--items li:hover {
+    background-color: rgb(128, 182, 240);
+    transition: all .4s ease-in;
+    color: red;
+}
+
+@media only screen and (max-width: 700px) {
+    .sidenav {
+        display: none;
+    }
+}

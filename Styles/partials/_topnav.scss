@@ -1,0 +1,64 @@
+.topnav {
+    background-color: rgb(202, 220, 228);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.toplogo {
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+.hamburger {
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.hamburger .line {
+    display: block;
+    width: 42px;
+    height: 6px;
+    margin-bottom: 10px;
+    background-color: black;
+}
+
+.nav__link {
+    position: fixed;
+    width: 94%;
+    top: 5rem;
+    left: 18px;
+    background-color: rgb(202, 220, 228);
+}
+
+.nav__link a {
+    display: block;
+    text-align: left;
+    padding: 10px 0 0 10px;
+}
+
+.nav__link a:hover {
+    background-color: rgb(128, 182, 240);
+    color: black;
+}
+
+.hide {
+    display: none;
+}
+
+@media only screen and (min-width: 701px) {
+    .topnav {
+        display: none;
+    }
+}
