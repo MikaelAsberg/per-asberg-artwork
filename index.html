@@ -25,13 +25,13 @@
                 <span class="line"></span>
             </div>
             <div class="nav__link hide">
-                <a href="#">Hem</a>
-                <a href="#">Målningar</a>
-                <a href="#">Teckningar</a>
-                <a href="#">Butik</a>
-                <a href="#">Nyheter</a>
-                <a href="#">Per Åsberg</a>
-                <a href="#">Kontakt</a>
+                <a href="/index.html">Hem</a>
+                <a href="/pages/natur.html">Natur</a>
+                <a href="/pages/porträtt.html">Porträtt</a>
+                <a href="/pages/fiktion.html">Fiktion</a>
+                <a href="/pages/objekt.html">Objekt</a>
+                <a href="/pages/butik.html">Butik</a>
+                <a href="/pages/kontakt.html">Kontakt</a>
             </div>
         </nav>
     </header>
@@ -45,69 +45,36 @@
             <div class="me-4 mt-0">
                 <ul class="sidenav--items">
                     <hr class=" mt-1 mb-1 ">
-                    <li type="button" onclick="location.href='#';"><span>Hem</span></li>
+                    <li type="button" onclick="location.href='/index.html';"><span>Hem</span></li>
                     <hr class="pt-0  mt-1 mb-1 ">
-                    <li type="button" onclick="location.href='#';"><span>Målningar</span></li>
+                    <li type="button" onclick="location.href='/pages/natur.html';"><span>Natur</span></li>
                     <hr class=" mt-1 mb-1 ">
-                    <li type="button" onclick="location.href='#';"><span>Teckningar</span></li>
+                    <li type="button" onclick="location.href='/pages/porträtt.html';"><span>Porträtt</span></li>
                     <hr class=" mt-1 mb-1 ">
-                    <li type="button" onclick="location.href='#';"><span>Butik</span></li>
+                    <li type="button" onclick="location.href='/pages/fiktion.html';"><span>Fiktion</span></li>
                     <hr class=" mt-1 mb-1 ">
-                    <li type="button" onclick="location.href='#';"><span>Nyheter</span></li>
+                    <li type="button" onclick="location.href='/pages/objekt.html';"><span>Objekt</span></li>
                     <hr class=" mt-1 mb-1 ">
-                    <li type="button" onclick="location.href='#';"><span>Per Åsberg</span></li>
+                    <li type="button" onclick="location.href='/pages/butik.html';"><span>Butik</span></li>
                     <hr class=" mt-1 mb-1 ">
-                    <li type="button" onclick="location.href='#';"><span>Kontakt</span></li>
+                    <li type="button" onclick="location.href='/pages/kontakt.html';"><span>Kontakt</span></li>
                     <hr class=" mt-1 mb-1 ">
                 </ul>
             </div>
         </nav>
-        <div class="content ps-4 d-flex justify-content-center align-items-center ">
-            <div class="d-flex flex-column">
-                <div class="slidershow middle">
-                    <div class="slides">
-                        <input type="radio" name="r" id="r1" checked>
-                        <input type="radio" name="r" id="r2">
-                        <input type="radio" name="r" id="r3">
-                        <input type="radio" name="r" id="r4">
-                        <input type="radio" name="r" id="r5">
-                        <div class="slide s1">
-                            <img src="/Images/lila.png" alt="lila">
-                        </div>
-                        <div class="slide">
-                            <img src="/Images/ljusblå.png" alt="ljusblå">
-                        </div>
-                        <div class="slide">
-                            <img src="/Images/ljusbrun.png" alt="ljusbrun">
-                        </div>
-                        <div class="slide">
-                            <img src="/Images/ljusgul.png" alt="ljusgul">
-                        </div>
-                        <div class="slide">
-                            <img src="/Images/mörkblå.png" alt="mörkblå">
-                        </div>
+        <div class="content">
+            <h1 class="mt-3 text-center">Per Åsberg Artwork</h1>
+            <h2 class="text-center pb-0 mb-0">Webbgalleri</h2>
+            <div class="content Landing__card d-flex flex-column justify-content-center align-items-center">
+                <div>
+                    <h3 class="text-center p-3 mt-0 pt-0">Per med en tavla av björknäver</h3>
+                    <div class="d-flex justify-content-center ">
+                        <img class="landing--img m-3" title="Nävertavla" src="/Images/Profil_Nävertalva.webp" alt="Per med en tavla av björknäver ">
+                        <img class="landing--img_small m-1" title="Nävertavla" src="/Images/Profil_Nävertalva_small.webp" alt="Per med en tavla av björknäver ">
                     </div>
-                    <div class="navigation">
-                        <label for="r1" class="bar"></label>
-                        <label for="r2" class="bar"></label>
-                        <label for="r3" class="bar"></label>
-                        <label for="r4" class="bar"></label>
-                        <label for="r5" class="bar"></label>
-                    </div>
-                </div>
-                <div class="Landing__flex--gallery">
-                    <h1 class="mt-3 ms-3">Utvalda alster</h1>
-                    <img class="m-3" src="/Images/lila.png" alt="lila">
-                    <img class="m-3" src="/Images/ljusblå.png" alt="ljusblå">
-                    <img class="m-3" src="/Images/ljusbrun.png" alt="ljusbrun">
-                    <img class="m-3" src="/Images/ljusgul.png" alt="ljusgul">
-                    <img class="m-3" src="/Images/mörkblå.png" alt="mörkblå">
-                    <img class="m-3" src="/Images/mörkgrön.png" alt="mörkblå">
-                    <img class="m-3" src="/Images/mörkgul.png" alt="mörkblå">
-                    <img class="m-3" src="/Images/orange.png" alt="mörkblå">
-                    <img class="m-3" src="/Images/röd.png" alt="mörkblå">
                 </div>
             </div>
+        </div>
     </main>
     <script src="/script/script.js "></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>

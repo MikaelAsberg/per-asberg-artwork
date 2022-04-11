@@ -6,10 +6,21 @@ body {
     max-width: 100vw;
     width: 100%;
     min-height: 100vh;
-    // background-color: rgb(225, 228, 230);
 }
 
-img {
-    width: 280px;
-    height: 280px;
+.images {
+    width: 450px;
+    height: 450px;
+}
+
+@media only screen and (max-width: 470px) {
+    .images {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 471px) {
+    .images_small {
+        display: none;
+    }
 }

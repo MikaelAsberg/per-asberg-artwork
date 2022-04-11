@@ -1,6 +1,11 @@
-@media only screen and (min-width: 1331px) {
-    /* place here CSS for when the screen is less than 1000px wide */
-    .Landing__flex--gallery {
-        visibility: hidden;
+@media only screen and (max-width: 560px) {
+    .landing--img {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 561px) {
+    .landing--img_small {
+        display: none;
     }
 }
