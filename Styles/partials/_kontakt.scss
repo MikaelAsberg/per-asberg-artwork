@@ -1,0 +1,22 @@
+.main-box {
+    border: solid black 1px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    font-size: 26px;
+    background-color: rgb(202, 220, 228);
+}
+
+.submit-btn {
+    background-color: rgb(202, 220, 228);
+    font-size: 32px;
+}
+
+.submit-btn:hover {
+    background-color: rgb(128, 182, 240);
+    transition: all .4s ease-in;
+}
