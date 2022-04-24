@@ -9,18 +9,6 @@ body {
 }
 
 .images {
-    width: 450px;
-    height: 450px;
-}
-
-@media only screen and (max-width: 470px) {
-    .images {
-        display: none;
-    }
-}
-
-@media only screen and (min-width: 471px) {
-    .images_small {
-        display: none;
-    }
+    max-width: 450px;
+    width: 100%;
 }

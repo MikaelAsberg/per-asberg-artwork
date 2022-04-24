@@ -34,3 +34,27 @@
         display: none;
     }
 }
+
+.Instagram-icon,
+.Instagram-icon-2 {
+    max-width: 40px;
+}
+
+.hashtag,
+.hashtag-2 {
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 790px) {
+    .Instagram-icon,
+    .hashtag {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 789px) {
+    .Instagram-icon-2,
+    .hashtag-2 {
+        display: none;
+    }
+}
