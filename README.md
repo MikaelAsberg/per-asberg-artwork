@@ -18,4 +18,7 @@ Build from scratch and with only one Bootstrap template for the top navbar
 
 Static and responsive 
 
+Web page hosted at netlify with an connection to this repo
+
+Visit: Per-Asberg-Artwork.netlify.app
 
